@@ -2,16 +2,16 @@ export const MainConfig = {
   navbar: {
     links: [
       {
-        name: "Home",
-        href: "/",
+        name: "Products",
+        href: "/products",
       },
       {
-        name: "About",
-        href: "/",
+        name: "Afiliados",
+        href: "/customers",
       },
       {
-        name: "Contact",
-        href: "/",
+        name: "Nosotros",
+        href: "/about-us",
       },
     ],
   },
@@ -19,7 +19,7 @@ export const MainConfig = {
     company: [
       {
         name: "About",
-        href: "/",
+        href: "/about-us",
       },
       {
         name: "Careers",
@@ -27,21 +27,21 @@ export const MainConfig = {
       },
       {
         name: "Contact",
-        href: "/",
+        href: "/contact",
       },
     ],
     support: [
       {
         name: "Help Center",
-        href: "/",
+        href: "/help-center",
       },
       {
         name: "Terms of Service",
-        href: "/",
+        href: "/terms-service",
       },
       {
         name: "Privacy Policy",
-        href: "/",
+        href: "/privacy-policy",
       },
     ],
   },

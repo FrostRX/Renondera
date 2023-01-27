@@ -1,7 +1,7 @@
-export default function Head() {
+export default function Head({ title }) {
   return (
     <>
-      <title>Renondera</title>
+      <title>{title ? `Renondera - ${title}` : "Renondera"}</title>
       <meta content="width=device-width, initial-scale=1" name="viewport" />
       <meta
         name="description"
